@@ -3,9 +3,13 @@
 // Declare app level module which depends on views, and core components
 angular.module('myApp', [
   'ngRoute',
+  'firebase',
+  // 'myApp.common.filters.FiltersModule',
+  // 'ViewStateModule',
   'myApp.view1',
-  'myApp.view2',
-  'myApp.version'
+  // 'myApp.view2',
+  'myApp.version',
+  
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

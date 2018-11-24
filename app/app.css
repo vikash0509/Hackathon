@@ -23,3 +23,103 @@
   content: "|";
   padding-right: 0.3em;
 }
+
+
+.grid {
+  width: 100%;
+  height: 250px;
+}
+
+.grid-msg-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.grid-msg-overlay .msg {
+  opacity: 1;
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  width: 60%;
+  height: 50%;
+  background-color: #eee;
+  border-radius: 4px;
+  border: 1px solid #555;
+  text-align: center;
+  font-size: 24px;
+  display: table;
+}
+
+.grid-msg-overlay .msg > .center {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.grid input[type="file"] {
+  font-size: 14px;
+  display: inline-block;
+}
+
+.ngx-charts {
+  float: left;
+  overflow: visible; }
+  .ngx-charts .circle,
+  .ngx-charts .bar,
+  .ngx-charts .arc {
+    cursor: pointer; }
+  .ngx-charts .bar.active, .ngx-charts .bar:hover,
+  .ngx-charts .cell.active,
+  .ngx-charts .cell:hover,
+  .ngx-charts .arc.active,
+  .ngx-charts .arc:hover,
+  .ngx-charts .card.active,
+  .ngx-charts .card:hover {
+    opacity: 0.8;
+    -webkit-transition: opacity 100ms ease-in-out;
+    transition: opacity 100ms ease-in-out; }
+  .ngx-charts .bar:focus,
+  .ngx-charts .cell:focus,
+  .ngx-charts .arc:focus,
+  .ngx-charts .card:focus {
+    outline: none; }
+  .ngx-charts g:focus {
+    outline: none; }
+  .ngx-charts .line-series.inactive,
+  .ngx-charts .line-series-range.inactive,
+  .ngx-charts .area-series.inactive {
+    -webkit-transition: opacity 100ms ease-in-out;
+    transition: opacity 100ms ease-in-out;
+    opacity: .2; }
+  .ngx-charts .line-highlight {
+    display: none; }
+    .ngx-charts .line-highlight.active {
+      display: block; }
+  .ngx-charts .area {
+    opacity: 0.6; }
+  .ngx-charts .circle:hover {
+    cursor: pointer; }
+  .ngx-charts .label {
+    font-size: 12px;
+    font-weight: normal; }
+  .ngx-charts .tooltip-anchor {
+    fill: black; }
+  .ngx-charts .gridline-path {
+    stroke: #ddd;
+    stroke-width: 1;
+    fill: none; }
+  .ngx-charts .grid-panel rect {
+    fill: none; }
+  .ngx-charts .grid-panel.odd rect {
+    fill: rgba(0, 0, 0, 0.05); }
+
+/*# sourceMappingURL=app.map*/
+
+.avatar{
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
